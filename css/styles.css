@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Titillium Web", sans-serif;
+  background: #FFFFFF;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  grid-template-areas: "content1 content2" "content3 content3";
+  grid-column-gap: 10px;
+  grid-row-gap: 70px;
+}
+
+#item1 {
+  grid-area: content1;
+}
+
+.img-container {
+  grid-area: content1;
+  margin: 0;
+  padding: 0;
+}
+.img-container img {
+  display: block;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+}
+
+#item2 {
+  color: #FFFFFF;
+  background-color: #1A2441;
+  grid-area: content2;
+  position: relative;
+  text-align: center;
+}
+#item2 #device-text {
+  font: 400 30px/38px "Titillium Web", sans-serif;
+  text-align: left;
+  margin-left: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+#item2 .rectangle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 15px;
+  height: 140px;
+  background-color: #6CB0E2;
+}
+
+#item3 {
+  grid-area: content3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#item3 button {
+  color: #1A2441;
+  background-color: #FFFFFF;
+  width: 235px;
+  height: 85px;
+  border: solid 1px #1A2441;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  margin: 8px;
+  font: 400 16px/38px "Titillium Web", sans-serif;
+}
+#item3 button:hover {
+  color: #FFFFFF;
+  background-color: #1A2441;
+}
+#item3 button.active {
+  color: #FFFFFF;
+  background-color: #1A2441;
+}
+
+@media only screen and (max-width: 767px) {
+  .container {
+    height: auto;
+    margin: 0;
+    max-width: 380px;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+    grid-template-areas: "content1" "content2" "content3";
+    grid-column-gap: 0;
+    grid-row-gap: 0;
+  }
+  #item2 {
+    height: 175px;
+  }
+  #item2 #device-text {
+    margin-left: 35px;
+  }
+  #item2 .rectangle {
+    display: none;
+  }
+  #item3 {
+    grid-area: content3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #item3 button {
+    color: #FFFFFF;
+    background-color: #CCCCCD;
+    width: 93px;
+    height: 93px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    border: none;
+    font: 400 16px/38px "Titillium Web", sans-serif;
+    margin: 0 1px;
+  }
+  #item3 button:hover {
+    color: #1A2441;
+    background-color: #FFFFFF;
+  }
+  #item3 button.active {
+    color: #1A2441;
+    background-color: #FFFFFF;
+  }
+}
+
+

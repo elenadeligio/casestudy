@@ -1,0 +1,48 @@
+{
+  "record": {
+    "ricS": {
+      "name": {
+        "mobile": "X RIC-S",
+        "desktop": "HORIZON X RIC-S"
+      },
+      "img": {
+        "mobile": "https://res.cloudinary.com/dhqvlsb3l/image/upload/v1/lp_fe_coding_challenge/case_xRic-s_mobile.jpg",
+        "desktop": "https://res.cloudinary.com/dhqvlsb3l/image/upload/v1/lp_fe_coding_challenge/case_xRic-s_desktop.jpg"
+      },
+      "text": "Alles, was nur ein HORIZON kann – im preisgekrönten Design."
+    },
+    "ric": {
+      "name": {
+        "mobile": "X RIC",
+        "desktop": "HORIZON X RIC"
+      },
+      "img": {
+        "mobile": "https://res.cloudinary.com/dhqvlsb3l/image/upload/v1656507668/lp_fe_coding_challenge/case_xRic_mobile.jpg",
+        "desktop": "https://res.cloudinary.com/dhqvlsb3l/image/upload/v1656507668/lp_fe_coding_challenge/case_xRic_desktop.jpg"
+      },
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    "ricR": {
+      "name": {
+        "mobile": "X RIC-R",
+        "desktop": "HORIZON X RIC-R"
+      },
+      "img": {
+        "mobile": "https://res.cloudinary.com/dhqvlsb3l/image/upload/v1656507668/lp_fe_coding_challenge/case_xRic-r_mobile.jpg",
+        "desktop": "https://res.cloudinary.com/dhqvlsb3l/image/upload/v1656507671/lp_fe_coding_challenge/case_xRic-r_desktop.jpg"
+      },
+      "text": "Praesent placerat pulvinar neque, quis interdum sem scelerisque vitae."
+    },
+    "cic": {
+      "name": {
+        "mobile": "X CIC",
+        "desktop": "HORIZON X CIC"
+      },
+      "img": {
+        "mobile": "https://res.cloudinary.com/dhqvlsb3l/image/upload/v1656507668/lp_fe_coding_challenge/case_xCIC_mobile.jpg",
+        "desktop": "https://res.cloudinary.com/dhqvlsb3l/image/upload/v1656507669/lp_fe_coding_challenge/case_xCIC_desktop.jpg"
+      },
+      "text": "Vestibulum et lectus eros. Vivamus sit amet commodo libero."
+    }
+  }
+}
